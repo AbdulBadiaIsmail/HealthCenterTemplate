@@ -1,0 +1,67 @@
+:root{
+    --green:#009f7f88;
+    --orange:#fe613888;
+}
+header{
+    min-height: 90vh;
+    background: url(../images/bg_image_1.jpg)repeat top center/cover;
+}
+.myhover:hover{
+background-color: aqua  !important;
+transition:all 0.5s !important;
+}
+.block{
+    min-height: 150px;
+    
+}
+
+section:first-of-type{
+    min-height: 450px;
+    overflow: hidden;
+
+}
+.icon{
+    min-height: 300px;
+
+}
+section:nth-of-type(2){
+    min-height: 500px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+section:nth-of-type(3){
+    min-height: 300px;
+    overflow: hidden;
+}
+
+section:nth-of-type(4){
+    min-height: 300px;
+}
+
+section:nth-of-type(5){
+    min-height: 750px;
+    overflow: hidden;
+}
+section:nth-of-type(6){
+    min-height: 400px;
+    background: orangered;
+   
+}
+
+section:nth-of-type(7){
+min-height:400px;
+}
+.ifram{
+   height: 400px;
+}
+.box{
+    background:#fe6138;
+   height: 400px;
+}
+
+section:nth-of-type(9){
+min-height:300px;
+
+}
